@@ -27,7 +27,7 @@ EXPOSE 3000
 CMD ["npm","run","start"]
 
 # This is docker build command: 
-# sudo docker build -t fptu-fe .
+# sudo docker build -t react-universal-fe .
 
 # This is docker run command:
-# sudo docker run -dit -p 3000:3000 fptu-fe:latest
+# sudo docker run -dit -p 3000:3000 react-universal-fe:latest

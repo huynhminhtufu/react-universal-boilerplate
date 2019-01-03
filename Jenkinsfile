@@ -1,10 +1,10 @@
 #!/bin/sh
-ssh root@gosu.team <<EOF
-    cd /home/fptu/fe
+ssh root@ssh.server <<EOF
+    cd /home/app
     git checkout .
     git pull
     yarn
     yarn build
-    pm2 reload www.fptu
+    pm2 reload www.app
     exit
 EOF

@@ -1,7 +1,7 @@
 {
     "apps": [
         {
-            "name": "www.fptu",
+            "name": "www.app",
             "script": "./dist/server/server.js",
             "watch": true
         }
