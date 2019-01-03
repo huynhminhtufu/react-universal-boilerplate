@@ -1,6 +1,7 @@
-import "regenerator-runtime/runtime";
 import React, { Component } from "react";
 import { Route, Switch } from "react-router-dom";
+
+import "./App.scss";
 
 import Routes from "./Routes";
 

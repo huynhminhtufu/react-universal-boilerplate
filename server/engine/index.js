@@ -14,19 +14,23 @@ export default ({ html, preState, helmet, bundles }) => {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="FPTU Technology Insider">
-    <meta name="keywords" content="FPTU, FPTU University, FPTU Technology, FPTU HCM Confession">
+    <meta name="keywords" content="None">
     <meta name="author" content="Huynh Minh Tu [React - NodeJS + Golang]">
     ${helmet.title.toString()}
     ${helmet.link.toString()}
     ${helmet.meta.toString()}
     ${styles
         .map(style => {
-            return `<link href="/client/${style.file}" rel="stylesheet">`;
+            if (style) {
+                return `<link href="/client/${style.file}" rel="stylesheet">`;
+            }
         })
         .join("\n")}
     ${vendorCss
         .map(style => {
-            return `<link href="${style}" rel="stylesheet">`;
+            if (style) {
+                return `<link href="${style}" rel="stylesheet">`;
+            }
         })
         .join("\n")}
     <link rel="shortcut icon" href="/assets/favicon.ico">
