@@ -61,6 +61,10 @@ Run image:
 $ docker run -dit -p 3000:3000 app-fe:latest
 ```
 
+<p align='center'>
+  <img width="600" alt="Create Next App running in terminal" src="public/assets/images/demo.jpg" />
+</p>
+
 ## License
 
 Copyright © 2018-present Tu Huynh. This source code is licensed under the MIT
