@@ -2,7 +2,7 @@
 
 [React Universal Boilerplate](https://gosu.team) is an isomorphic web app built on top of [Node.js](https://nodejs.org/),
 [Express](http://expressjs.com/), [React](https://facebook.github.io/react/) and [Redux](https://redux.js.org/), containing modern web development
-tools such as [Webpack](http://webpack.github.io/) and [Babel](http://babeljs.io/). Initial recipes were prepared for working with a RESTful API Service, running in a Docker environment or running with PM2 tool.
+tools such as [Webpack](http://webpack.github.io/) and [Babel](http://babeljs.io/). Initial recipes were prepared for working with a RESTful API Service, running in a Docker environment or running with PM2 tool, optimized for serving production. Also included ESLint with beautiful configurations.
 
 ## Environment
 
