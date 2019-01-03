@@ -52,13 +52,13 @@ First, you need a docker environment installed.
 Build image:
 
 ```
-$ docker build -t fptu-fe .
+$ docker build -t app-fe .
 ```
 
 Run image:
 
 ```
-$ docker run -dit -p 3000:3000 fptu-fe:latest
+$ docker run -dit -p 3000:3000 app-fe:latest
 ```
 
 ## License
